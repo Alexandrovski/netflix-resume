@@ -5,9 +5,9 @@ const experiences = [
   {
     title: "The Quantum Closer",
     years: "2024 – Present",
-    tagline: "Helping the world’s top AI teams bend reality.",
+    tagline: "Helping the worlds top AI teams bend reality.",
     synopsis:
-      "Yuri joins AWS’s elite AI/ML team, managing a multi-million dollar portfolio. From quantum computing to 3D simulations, he helps the brightest minds on Earth (and maybe Mars) commercialize the future faster.",
+      "Yuri joins AWSs elite AI/ML team, managing a multi-million dollar portfolio. From quantum computing to 3D simulations, he helps the brightest minds on Earth (and maybe Mars) commercialize the future faster.",
     genre: "Tech Thriller, Sci-Fi Business",
     image: "/posters/quantumCloser.jpg"
   },
@@ -88,7 +88,7 @@ const experiences = [
 export default function ResumeCinematicUI() {
   return (
     <div className="p-6 bg-black min-h-screen text-white">
-      <h1 className="text-4xl font-bold mb-6 text-center">🎬 Yuri's Career as Cinema</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center">🎬 Yuri Career as Cinema</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {experiences.map((exp) => (
           <div
